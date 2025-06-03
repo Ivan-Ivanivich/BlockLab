@@ -9,7 +9,7 @@ namespace BLOCKLAB
     internal class Person
     {
         // Закрытые поля
-        private string firstName; 
+        private string firstName;
         private string lastName;
         private DateTime birthDate; 
 
@@ -21,7 +21,7 @@ namespace BLOCKLAB
             this.birthDate = birthDate;
         }
 
-        // Конструктор без параметров с значениями по умолчанию
+        // Конструктор без параметров с значениями по умолчанию(что такое значение по умолячанию?xdlol)
         public Person() : this("ИмяПоУмолчанию", "ФамилияПоУмолчанию", new DateTime(2000, 1, 1))
         {
         }
@@ -69,3 +69,4 @@ namespace BLOCKLAB
             return $"{firstName} {lastName}";
         }
     }
+}
